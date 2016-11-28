@@ -1,0 +1,50 @@
+<!-- Contact Section -->
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2>Contact</h2>
+              {% include social.html %}
+              <p class="lead"><a href="tel:01430434754">01430 434754</a></p>
+
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+              <form method="POST" action="http://formspree.io/naaman_hudson@hotmail.co.uk">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                      <input class="form-control" type="text" name="Name" placeholder="Name">
+
+                  </div>
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                      <input class="form-control" type="email" name="email" placeholder="Email Address">
+
+                  </div>
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                      <input class="form-control" type="text" name="Number" placeholder="Number">
+
+                  </div>
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                      <textarea name="message" placeholder="Message" class="form-control"></textarea>
+
+                  </div>
+
+                  <button class="btn btn-success btn-lg" type="submit">Send</button>
+
+                  <input type="hidden" name="_next" value="/#contact-thanks"/>
+              </form>
+
+              <div id="contact-thanks">
+                  <div class="alert alert-dismissible alert-success">
+                      <button type="button" class="close" data-dismiss="alert">×</button>
+                      <p>Thanks for getting in touch</p><strong>We will get back to you as soon as we can</strong>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

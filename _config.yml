@@ -1,0 +1,20 @@
+# Site settings
+title: The Malt House
+email: malthouse@gmail.com
+phone: 01430 434754
+description: The Malt House Bar & Bistro Howden.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.gypsymothshull.com" # the base hostname & protocol for your site
+
+# Social media profiles - feel free to add more here
+
+facebook_username: MaltHouseBarAndBistro
+instagram_username: gypsymothshull
+
+# Build settings
+markdown: kramdown
+
+address1: 34 Bridgegate Howden
+address2: Howden
+post-code: DN14 7AB

@@ -1,0 +1,215 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+
+
+$spacing-unit:     30px;
+
+$text-color:       #403B4B;
+$text-color-2: #A57741;
+$background-color: #222;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$header-text: 'Slabo 27px', serif;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@media (max-width: 768px) {
+header .container {
+  margin-top: -50px;
+}
+}
+@media (min-width: 768px) {
+.parallax1 {
+    /* The image used */
+    background-image: url("{{ site.github.url }}/img/img_parallax1.JPG");
+}
+.parallax1 {
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// @import
+//         "base",
+//         "layout",
+//         "syntax-highlighting"
+// ;
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 90px;
+  background-color: #fff;
+}
+h1,h2,h3,h4,.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+}
+header .container {
+  padding-top: 80px;
+}
+header {
+  background-color: $background-color;
+
+}
+#mainNav {
+  background-color: $background-color;
+}
+
+.navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+  color: $text-color;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+  color: white;
+  background-color: $text-color;
+  border-color: $text-color;
+}
+
+.floating-label-form-group, .floating-label-form-group:not(:first-child) {
+  margin-top: 20px;
+  border-left: 0;
+}
+form button {
+  margin-top: 20px;
+}
+.btn-default, .btn-success {
+  background-color: transparent;
+  border: solid 3px $text-color;
+  color: $text-color;
+}
+.btn-default:hover, .btn-success:hover, .btn-default:active:focus, .btn-success:active:focus, .btn-success:focus {
+  background-color: $text-color;
+  color: #fff;
+  border: 3px solid $text-color;
+}
+.naaman {
+  color: white;
+}
+.naaman:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: $text-color;
+}
+.btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+  color: $text-color;
+}
+footer .footer-above {
+  background-color: $background-color;
+}
+footer .footer-below {
+  background-color: #818479;
+}
+.portfolio-item img {
+  vertical-align: middle;
+}
+.portfolio-item h3 {
+  vertical-align:middle;
+  color: $text-color;
+  text-align: center;
+}
+a, a.active, a:active, a:focus, a:hover {
+  color: $text-color ;
+}
+.form-control:focus, .floating-label-form-group-with-focus, .floating-label-form-group-with-value {
+  color: $text-color;
+  border-color: $text-color;
+}
+#contact-thanks {
+  display: none;
+  margin-top: 30px;
+}
+#contact-thanks:target {
+  display: inherit;
+}
+//slideshow
+#owl-slide {
+  margin-top: 20px;
+}
+#owl-slide .item{
+  margin: 3px;
+}
+#owl-slide .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.btn-social {
+  border-color: $text-color;
+  color: $text-color;
+}
+.btn-social:hover {
+  background-color: $text-color;
+  color: white;
+  border-color: $text-color;
+}
+.site-map {
+  list-style: none;
+  padding-left: 0px;
+}
+.home-title {
+  font-size: 40px;
+}
+.xmas {
+  background-color: rgba(87,0,0,0.6);
+  // opacity: .6;
+  border: none;
+  padding: 20px;
+}
+.xmas img{
+  width: 15%;
+}
+.xmas a{
+  color: #1C7C54;
+}
+section {
+  background-color: white;
+}
+section h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+footer a {
+  color: white;
+}
+#about-text {
+  text-align: center;
+}
