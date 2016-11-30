@@ -5,7 +5,7 @@ phone: 01430 434754
 description: The Malt House Bar & Bistro Howden.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.malthousebar.com" # the base hostname & protocol for your site
+url: "http://www.malthousebar.com/" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 
