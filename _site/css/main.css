@@ -19,6 +19,12 @@ body {
   padding-top: 90px;
   background-color: #fff; }
 
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
 h1, h2, h3, h4, .navbar-brand {
   font-family: 'Oswald', sans-serif;
   text-transform: capitalize; }
@@ -142,6 +148,7 @@ section {
   background-color: white; }
 
 section h2 {
+  font-size: 2em;
   margin-top: 20px;
   margin-bottom: 10px; }
 
@@ -150,3 +157,19 @@ footer a {
 
 #about-text {
   text-align: center; }
+
+.price, .main-price {
+  text-align: right;
+  font-weight: bold; }
+
+.main-price {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.menu-footnote {
+  font-size: 18px;
+  text-align: center;
+  font-style: italic; }
+
+.vegi {
+  background-color: #017F00; }
