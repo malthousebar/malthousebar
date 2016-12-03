@@ -3,10 +3,10 @@
   <channel>
     <title>The Malt House</title>
     <description>The Malt House Bar &amp; Bistro Howden.</description>
-    <link>www.gypsymothshull.com/</link>
-    <atom:link href="www.gypsymothshull.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Nov 2016 22:02:43 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2016 22:02:43 +0000</lastBuildDate>
+    <link>http://www.malthousebar.com//</link>
+    <atom:link href="http://www.malthousebar.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Dec 2016 01:51:16 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Dec 2016 01:51:16 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
   </channel>
