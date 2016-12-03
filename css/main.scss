@@ -45,7 +45,7 @@ header .container {
   margin-top: -50px;
 }
 }
-@media (min-width: 768px) {
+// @media (min-width: 768px) {
 .parallax1 {
     /* The image used */
     background-image: url("/img/img_parallax1.jpg");
@@ -60,7 +60,7 @@ header .container {
     background-repeat: no-repeat;
     background-size: cover;
 }
-}
+// }
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -227,6 +227,7 @@ footer a {
 .main-price {
   margin-top: 20px;
   margin-bottom: 10px;
+  padding-right: 10px;
 }
 .menu-footnote {
   font-size: 18px;

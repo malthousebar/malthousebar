@@ -1,19 +1,19 @@
 @media (max-width: 768px) {
   header .container {
     margin-top: -50px; } }
-@media (min-width: 768px) {
-  .parallax1 {
-    /* The image used */
-    background-image: url("/img/img_parallax1.jpg"); }
+.parallax1 {
+  /* The image used */
+  background-image: url("/img/img_parallax1.jpg"); }
 
-  .parallax1 {
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; } }
+.parallax1 {
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 90px;
@@ -164,7 +164,8 @@ footer a {
 
 .main-price {
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  padding-right: 10px; }
 
 .menu-footnote {
   font-size: 18px;
